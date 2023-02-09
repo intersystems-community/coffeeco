@@ -8,6 +8,10 @@ Parameter HandleCorsRequest = 1;
 /// Default response content type
 Parameter CONTENTTYPE = "application/json";
 
+Parameter CONVERTINPUTSTREAM = 1;
+
+Parameter CHARSET = "utf-8";
+
 /// Number of days since roasting for the coffee to be considered "stale"
 Parameter MAXAGE = 5;
 
